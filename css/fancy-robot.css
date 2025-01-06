@@ -1,13 +1,38 @@
 .robot-container {
+    border: 5px solid green;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    position: relative;
 }
 
 .robot-face-shape {
+    border: 5px solid yellow;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 50% / 10%;
+    text-indent: .1em;
 }
 
 .robot-eye-left {
+    width: 60px;
+    height: 60px;
+    border: 3px solid red;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top:70px
 }
 
 .robot-eye-right {
+    width: 60px;
+    height: 60px;
+    border: 3px solid red;
+    border-radius: 50%;
+    position: absolute;
+    right: 100px;
+    top: 70px;
 }
 
 .robot-ear-left {
@@ -17,9 +42,20 @@
 }
 
 .robot-nose {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid red;
+    /* margin: 100px auto; */
 }
 
 .robot-teeth {
+    width: 400px;
+    height: 80px;
+    border: 3px solid red;
+    position: absolute;
+    /* margin: -180px auto; */
 }
 
 .robot-tooth {
