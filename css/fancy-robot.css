@@ -3,6 +3,7 @@
     height: 300px;
     margin: auto;
     position: relative;
+    padding: 2px;
 }
 
 .robot-face-shape {
@@ -40,6 +41,8 @@
     height:150px;
     background:#fff;
     border-radius: 100% / 100%;
+    border: 5px solid #fff;
+    background: radial-gradient(#f69d3c, #3f87a6);
 }
 
 .robot-ear-left {
