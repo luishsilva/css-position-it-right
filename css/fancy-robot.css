@@ -58,24 +58,6 @@
     animation: 4s linear 0s infinite alternate bounce-left-ear;
 }
 
-@keyframes bounce-left-ear {
-    from {
-      transform: translateX(-30px);
-    }
-    to {
-      transform: translateX(10px);
-    }
-  }
-
-  @keyframes bounce-right-ear {
-    from {
-      transform: translatey(30px);
-    }
-    to {
-      transform: translatey(-10px);
-    }
-  }
-
 .robot-ear-right {
     right: -90px;
     animation: 4s linear 0s infinite alternate bounce-right-ear;
@@ -219,4 +201,23 @@
     left: 250px;
     border-top: 60px solid #fff;
     z-index: -1; 
+}
+
+
+@keyframes bounce-left-ear {
+    from {
+        transform: translateX(-30px);
+    }
+    to {
+        transform: translateX(10px);
+    }
+}
+
+@keyframes bounce-right-ear {
+    from {
+        transform: translatey(30px);
+    }
+    to {
+        transform: translatey(-10px);
+    }
 }
